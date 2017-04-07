@@ -1,0 +1,7 @@
+Max Budget:
+<%= form_tag({controller: "air", action: "index"}, method: "get") do %>
+<input type="text" placeholder = "Max Budget (eg 500)" name="user_input">
+<input type="text" placeholder = "Origin Airport Code" name="origin">
+<input type="submit" name="Submit">
+</form>
+<% end %>
